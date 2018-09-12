@@ -26,3 +26,4 @@ height = input("Height of multiplication table: ")
 y = 1
 for y in range(1,int(height) +1):
     print([int(x)*int(y) for x in range(1,int(width) + 1)])
+    yes
