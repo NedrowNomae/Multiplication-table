@@ -27,5 +27,5 @@ for x in range(1,int(height)+1):
     list = [x*q for q in range(1,int(width)+1)]
     var = ""
     for i in list:
-        var = str(var)+str(list)
-        print(var)
+        var = var + str(i) + " "
+    print (var)
