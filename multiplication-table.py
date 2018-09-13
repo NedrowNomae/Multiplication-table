@@ -25,4 +25,4 @@ width = input("Width of multiplication table: ")
 height = input("Height of multiplication table: ")
 for x in range(1,int(height)+1):
     list = [x*q for q in range(1,int(width)+1)]
-    print(
+    print(list(0:e:1) for e in range(1,int(width)+1))
